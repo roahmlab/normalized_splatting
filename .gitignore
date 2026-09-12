@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+
+# Run artifacts
+output/
+runs/
+wandb/
+logs/
+*.log
+debug/
+screenshots/
+grads/
+tensorboard_3d/
+clouds/
+segmentation_res/
+output_images/
+
+# Data and checkpoints (keep these out of the repo)
+*.ply
+*.pcd
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.bag
+/cameras.json
+
+# Local scratch
+sandbox/
+docker/tmp/
+.etc_group
+.etc_passwd

@@ -1,0 +1,31 @@
+# Core
+torch==2.9.1
+torchvision==0.24.1
+numpy
+scipy
+plyfile==0.8.1
+tqdm
+Pillow
+
+# Data loading / conversion
+opencv-python>=4.7
+open3d
+pandas
+pyyaml
+imageio
+imageio-ffmpeg
+pycolmap
+
+# Metrics and logging
+scikit-image
+torchmetrics
+lpips
+wandb
+matplotlib
+
+# SAGA segmentation
+scikit-learn
+hdbscan
+dearpygui
+
+# SAM and GroundingDINO are installed from submodules/ (see README).
